@@ -41,7 +41,6 @@ class OrderServiceTest {
     private OrderRepository orderRepository;
     @MockBean
     private MovieService movieService;
-
     private OrderService orderService;
 
     @BeforeEach
