@@ -15,6 +15,6 @@ import java.util.List;
 public class OrderDetailDto {
     private Long id;
     private String name;
-    private Integer price;
+    private Long price;
     private List<MovieDetailDto> movies = new ArrayList<>();
 }

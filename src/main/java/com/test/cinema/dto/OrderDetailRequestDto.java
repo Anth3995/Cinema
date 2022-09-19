@@ -20,7 +20,7 @@ public class OrderDetailRequestDto {
     @NotBlank
     private String name;
     @Positive
-    private Integer price;
+    private Long price;
     @Size(min = 1, max = 5, message = "Order can to has no greater than 5 movies")
     @NotEmpty
     private List<Long> movieIds = new ArrayList<>();
